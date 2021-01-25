@@ -1,7 +1,7 @@
-from my_code import inc
+from my_code import pay_calculator
 
 
-def test_inc():
-    assert 5 == inc(4)
-    assert 1 == inc(0)
-    assert 0 == inc(-1)
+def test_pay_calculator():
+    assert 660 == pay_calculator(40)
+    assert 907.50 == pay_calculator(50)
+    assert 330 == pay_calculator(20)
